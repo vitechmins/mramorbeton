@@ -1,0 +1,145 @@
+export const dataBruschatka = [
+	{
+		id: 1,
+		title: 'Каменный цветок элит',
+		gray: 30,
+		colored: 36,
+		mramornyj: 41,
+		size: '40',
+		weight:'90',
+		img: `/bruschatka/1.webp`,
+		alt:'Брусчатка - Каменный цветок элит'
+	},
+	{
+		id: 2,
+		title: 'Старый Арбат',
+		gray: 30,
+		colored: 36,
+		mramornyj: 41,
+		size: '195х140х40;150х140х40',
+		weight:'90',
+		img: `/bruschatka/2.webp`,
+		alt:'Брусчатка - Старый Арбат'
+	},
+	{
+		id: 3,
+		title: 'Булыжная Мостовая',
+		gray: 30,
+		colored: 36,
+		mramornyj: 41,
+		size: '150 х 300 х 40',
+		weight:'80',
+		img: `/bruschatka/3.webp`,
+		alt:'Брусчатка - Булыжная Мостовая'
+	},
+	{
+		id: 4,
+		title: 'Каменная роза',
+		gray: 30,
+		colored: 36,
+		mramornyj: 41,
+		size: '6 камней разной фактуры, толщина 40мм',
+		weight:'90',
+		img: `/bruschatka/4.webp`,
+		alt:'Брусчатка - Каменная роза'
+	},
+	{
+		id: 5,
+		title: 'Домино',
+		gray: 30,
+		colored: 36,
+		mramornyj: 41,
+		size: '300х150х40',
+		weight:'80',
+		img: `/bruschatka/5.webp`,
+		alt:'Брусчатка - Домино'
+	},
+	{
+		id: 6,
+		title: 'Польская 2',
+		gray: 30,
+		colored: 36,
+		mramornyj: 41,
+		size: '250х250х35',
+		weight:'80',
+		img: `/bruschatka/6.webp`,
+		alt:'Брусчатка - Польская 2'
+	},
+	{
+		id: 7,
+		title: 'Старый кирпич',
+		gray: 40,
+		colored: 46,
+		mramornyj: 51,
+		size: '250х125х60',
+		weight:'80',
+		img: `/bruschatka/7.webp`,
+		alt:'Брусчатка - Старый кирпич'
+	},
+	{
+		id: 8,
+		title: 'Монарх',
+		gray: 30,
+		colored: 36,
+		mramornyj: 41,
+		size: '435х220х30',
+		weight:'80',
+		img: `/bruschatka/8.webp`,
+		alt:'Брусчатка - Монарх'
+	},
+	{
+		id: 9,
+		title: 'Доска',
+		gray: 30,
+		colored: 36,
+		mramornyj: 41,
+		size: '195х195х40;195х590х40;195х790х40',
+		weight:'80',
+		img: `/bruschatka/9.webp`,
+		alt:'Брусчатка - Доска'
+	},
+	{
+		id: 10,
+		title: 'Афинская мостовая',
+		gray: 30,
+		colored: 36,
+		mramornyj: 41,
+		size: '300х300х45 300х200х45 300х150х45 200х200х45 200х100х45 150х150х45 150х115х45 150х90х45 155х75х45 130х105х45',
+		weight:'80',
+		img: `/bruschatka/10.webp`,
+		alt:'Брусчатка - Афинская мостовая'
+	},
+	{
+		id: 11,
+		title: 'Кирпич',
+		gray: 30,
+		colored: 36,
+		mramornyj: 41,
+		size: '200х100x40',
+		weight:'80',
+		img: `/bruschatka/11.webp`,
+		alt:'Брусчатка - Кирпич'
+	},
+	{
+		id: 12,
+		title: 'Осень',
+		gray: 30,
+		colored: 36,
+		mramornyj: 41,
+		size: '300х300x40, 200х300x40,200х200x40,200х100x40',
+		weight:'80',
+		img: `/bruschatka/12.webp`,
+		alt:'Брусчатка - Осень'
+	},
+	{
+		id: 13,
+		title: 'Греция',
+		gray: 30,
+		colored: 36,
+		mramornyj: 41,
+		size: '1 камень 305х305x35; 2 камень 100х100x35',
+		weight:'80',
+		img: `/bruschatka/13.webp`,
+		alt:'Брусчатка - Греция'
+	},
+]

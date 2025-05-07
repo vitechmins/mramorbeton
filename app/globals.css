@@ -1,0 +1,188 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer components {
+  .custom-gradient-border {
+    @apply w-full;
+    background-image: linear-gradient(90deg, rgba(255,255,255,255) 0%, rgba(0,0,0,1) 50%, rgba(255,255,255,255) 100%);
+    opacity: 0.3;
+    display: inline-block;
+  }
+}
+
+.text{
+  -webkit-text-stroke-width: 1px;
+    color: #00000000;
+    -webkit-text-stroke-color: #00386B;
+}
+
+.background-custom {
+  background-image: 
+    linear-gradient(to right bottom, rgba(0, 0, 0, 0.55) 10%, rgba(255, 255, 255, 0) 50%),
+    linear-gradient(to right top, rgba(0, 0, 0, 0.55) 10%, rgba(255, 255, 255, 0) 40%),
+    linear-gradient(to right, rgba(0, 0, 0, 0.7) 30%, rgba(255, 255, 255, 0) 75%),
+    linear-gradient(rgba(0, 0, 0, 0.7) 0%, rgba(255, 255, 255, 0) 25%),
+    url('/fon/fon.webp');
+  background-size: cover;
+  background-position: center;
+}
+.background-custom2 {
+  background-image: 
+    linear-gradient(to right bottom, rgba(0, 0, 0, 0.55) 10%, rgba(255, 255, 255, 0) 50%),
+    linear-gradient(to right top, rgba(0, 0, 0, 0.55) 10%, rgba(255, 255, 255, 0) 40%),
+    linear-gradient(to right, rgba(0, 0, 0, 0.7) 30%, rgba(255, 255, 255, 0) 75%),
+    linear-gradient(rgba(0, 0, 0, 0.7) 0%, rgba(255, 255, 255, 0) 25%),
+    url('/okna-pvh/fon-okna-vizitka.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 0 rgba(0,0,0,0.4);
+}
+
+.fon{
+	background-image: url('/fon/fon.webp');
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 0;
+}
+
+.fon2{
+	background-image: url('/fon/fon-bruschatka.webp');
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 0;
+}
+.fon3{
+	background-image: url('/fon/fon-trotuarnaya-plitka.webp');
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 0;
+}
+.fon4{
+	background-image: url('/fon/fon-bordyuryi-i-vodostoki.webp');
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 0;
+}
+.fon5{
+	background-image: url('/fon/fon-ritualnyie-plityi.webp');
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 0;
+}
+
+.fon6{
+	background-image: url('/fon/fon-nakladnyie-prostupi.webp');
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 0;
+}
+.fon7{
+	background-image: url('/fon/fon-poshagovye-plity.webp');
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 0;
+}
+.fon8{
+	background-image: url('/fon/fon-nakryivnyie-elementyi.webp');
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 0;
+}
+
+.fon:after, .fon2:after, .fon3:after, .fon4:after, .fon5:after, .fon6:after, .fon7:after, .fon8:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	background: #000;
+	opacity: 0.5;
+	z-index: -1;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #ffffff, #c026d3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+
+
+.btn-gradient {
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  /* box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51); */
+}
+
+.bg-black-gradient-2 {
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #c026d3 -78.47%,
+    #fb7185 91.61%
+  );
+}
+
+
+@keyframes appearLarge {
+  from {
+      width: 0;
+  }
+  to {
+      width: 700px;
+  }
+}
+
+@keyframes appearSmall {
+  from {
+      height: 0;
+  }
+  to {
+      height: 100vh;
+  }
+}
+
